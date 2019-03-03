@@ -27,7 +27,7 @@ html {
     cursor: pointer;
 }
 .wrap:hover {
-  color: #f00658;
+  color: #ff007f ;
   transition: 0.3s;
 }
 body {
@@ -37,7 +37,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
-  background-color: #ff007f ;
+  background-color: #ff007f;
 }
 a {
   color: white;
@@ -61,17 +61,17 @@ a {
   
   }
 #content-background {
-  background-color: #46b746;
+  background-color: lightpink;
   max-width: 1380px;
   margin: auto;
-  border-top: 3px solid yellow; 
-  border-bottom: 3px solid yellow; 
+  border: 3px solid white; 
+
 }
 #content {
   padding: 100px 60px;
 }
 .nav-link:hover {
-  color: #f00658;
+  color: yellow;
   transition: 0.3s;
 }
 #footer {
@@ -87,7 +87,7 @@ a {
     font-weight: 100;
 }
 .footer-style a {
-    color: #f00658;
+    color: yellow;
 }
 .fa {
     text-align: center;
@@ -225,12 +225,9 @@ body{margin:0;}
   -webkit-animation: mymove2 4s linear infinite;	
 }
 
-
 .rect6{left:15%;-webkit-animation-delay:2.2s;}
 .rect7{left:45%;-webkit-animation-delay:0.8s;}
 .rect8{left:77%;-webkit-animation-delay:1.4s;}
-
-
 
 @-webkit-keyframes mymove2{
 	
@@ -238,11 +235,10 @@ body{margin:0;}
 	100%{transform:rotate(540deg);opacity:0;bottom:340px;}
 	}
 
-
   .text-block {
     height: 100%;
     width: 100%;
-    background-color: #525252;
+    background-color: lightpink;
   }
 
 .footer-block {
