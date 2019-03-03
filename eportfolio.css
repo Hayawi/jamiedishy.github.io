@@ -27,7 +27,7 @@ html {
     cursor: pointer;
 }
 .wrap:hover {
-  color: #ff007f ;
+  color: #7dc160;
   transition: 0.3s;
 }
 body {
@@ -37,7 +37,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
-  background-color: #ff007f;
+  background-color: #f52281;
 }
 a {
   color: white;
@@ -61,7 +61,7 @@ a {
   
   }
 #content-background {
-  background-color: lightpink;
+  background-color: #f39d06;
   max-width: 1380px;
   margin: auto;
   border: 3px solid white; 
@@ -238,7 +238,7 @@ body{margin:0;}
   .text-block {
     height: 100%;
     width: 100%;
-    background-color: lightpink;
+    background-color: #7dc160;
   }
 
 .footer-block {
@@ -248,5 +248,12 @@ body{margin:0;}
 }
 a:hover {
   color: yellow;
+  transition: 0.3s;
+}
+#demo {
+  color: yellow;
+}
+#demo:hover {
+  color:#7dc160;
   transition: 0.3s;
 }
