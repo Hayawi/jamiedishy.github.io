@@ -434,7 +434,23 @@ background: yellow;
     .card {
       margin-left: 4%;
           }
-  
+  }
+  @media only screen and (min-width: 1900px) {
+    .nav-custom {
+      padding: 2% 25%;
+  }
+    .container {
+      padding: 5% 5%;
+      }
+      .wrap {
+        padding: 0% 22%;
+      }
+    .jumbotron {
+      padding: 10% 26% 10%;
+    }
+    #footer {
+      padding: 5% 0% 5% 26%;
+  }
 
   }
 

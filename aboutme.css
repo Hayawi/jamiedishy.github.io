@@ -161,5 +161,19 @@ h5:hover {
     #bio {
         padding: 5% 2%;
     }
+}
+@media only screen and (min-width: 1900px) {
+    .jumbotron {
+        height: 460px;
+        padding: 3% 26%;
+        background-color: #fff;
+    }
+    #jumbotron img {
+        margin-left: 35%;
+    }
+    .nav-custom {
+        padding: 2% 25%;
+        margin: auto; 
+    }
 
 }
