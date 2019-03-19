@@ -12,3 +12,7 @@ body {
     width: 150px;
     cursor: pointer;
 }
+.column:hover {
+    color: red;
+    transition: 0.3s;
+}
