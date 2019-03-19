@@ -1,0 +1,14 @@
+body {
+    padding: 10px 0px;
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+    font-size: 11px;
+    line-height: 0.1;
+}
+.column {
+    color: white;
+    float: left;
+    width: 150px;
+    cursor: pointer;
+}
